@@ -1,0 +1,51 @@
+/* Profile Styles */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #cdcf9f; /* Set background color to white */
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: var(--color-dark);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.post-creation {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #090808; /* Dark gray border */
+    border-radius: 10px;
+    background-color: #f1ecf0d0; /* Medium gray background */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#publishBtn {
+    background-color: #eb5205; /* Light slate gray button background */
+    color: #0b0a0afe;
+    border: none;
+}
+
+.uploaded-file img {
+    max-width: 100%;
+}
